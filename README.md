@@ -25,10 +25,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. How would you describe preprocessing to someone new to CSS?
+    Preprocessing allows you to write CSS in a way that is more scalable and similar to a programming language, and have that compiled into actual CSS.
+
 2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+    Nesting of selectors because it allows for more organized CSS. Parametric mix-ins, because I feel like the uses I've had for them so far seem pretty forced.
+
 3. How would you explain the concept of a variable to someone new to programming?
+    A variable allows you to store information in an easily referenceable name.
+
 4. What is the purpose of using functions in code?
+    Functions allow you to easily reuse the same steps of code without having to rewrite them.
+
 5. What is a JSON data?
+    JSON is a notation format that allows for sending and receiving data. By having an agreed upon format, it makes it easy for developers to use the data.
 
 You may need to look up an answer but, you are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -68,7 +77,7 @@ Follow these steps to set up your project:
 7.cta.less
 ```
 
-_You will know everything is working properly when you see the styles enabled for the provided content._  
+_You will know everything is working properly when you see the styles enabled for the provided content._
 
 #### Home Page - Desktop HTML & LESS
 
