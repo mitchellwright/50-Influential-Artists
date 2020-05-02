@@ -270,14 +270,21 @@ genre: Web Design,
 nationality: Your Nationality Here
 bio: Add 1-2 sentences (or use lorem ipsum) "*/
 
-function addArtist(/* Code here */){
+function addArtist(array){
+  let newArtist = {
+    'id': array[0],
+    'name': array[1],
+    'years': array[2],
+    'genre': array[3],
+    'nationality': array[4],
+    'bio': array[5]
+  };
 
-    /* Code here */
+  artists.push(newArtist);
+}
 
-  }
-
-
-
+addArtist([21, 'Mitchell Wright', '1987 - 2020', 'Web Design', 'American', 'Bacon ipsum dolor amet turkey pig burgdoggen frankfurter shankle bresaola. Doner pork chop corned beef, drumstick filet mignon ground round flank frankfurter short loin andouille spare ribs turducken.']);
+console.log(artists[artists.length - 1]);
 
 
 // 🎨🎨 STRETCH 🎨🎨//
