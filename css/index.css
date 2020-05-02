@@ -117,6 +117,11 @@ header nav {
   justify-content: center;
   text-align: center;
 }
+@media (max-width: 500px) {
+  header nav {
+    flex-direction: column;
+  }
+}
 header nav a {
   text-decoration: none;
   font-size: 2.5rem;
@@ -128,6 +133,12 @@ header nav a:after {
 }
 header nav a:last-child:after {
   content: "";
+}
+@media (max-width: 500px) {
+  header nav a:after {
+    content: "";
+    margin: 0 1rem;
+  }
 }
 .title-container {
   display: flex;
@@ -146,6 +157,12 @@ header nav a:last-child:after {
   font-size: 10rem;
   padding: 0 20%;
 }
+@media (max-width: 500px) {
+  .title-container .hero-text h2 {
+    font-size: 7rem;
+    margin-bottom: 2rem;
+  }
+}
 .title-container .hero-text button {
   font-size: 2.4rem;
   border-radius: 5px;
@@ -161,6 +178,11 @@ header nav a:last-child:after {
 .artists-container {
   display: flex;
   justify-content: space-evenly;
+}
+@media (max-width: 500px) {
+  .artists-container {
+    flex-direction: column;
+  }
 }
 .artists-container .artist {
   display: flex;

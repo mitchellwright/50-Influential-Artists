@@ -15,6 +15,11 @@
         h2 {
             font-size: 10rem;
             padding: 0 20%;
+
+            @media @mobile {
+                font-size: 7rem;
+                margin-bottom: 2rem;
+            }
         }
 
         button {
@@ -35,6 +40,10 @@
 .artists-container {
     .flex();
     justify-content: space-evenly;
+
+    @media @mobile {
+        flex-direction: column;
+    }
 
     .artist {
         .flex();
