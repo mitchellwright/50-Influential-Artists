@@ -207,7 +207,8 @@ const artists = [
 
 (1) Name of the first artist in the array
 (2) Bio of the third artist in the array */
-
+console.log(artists[0].name);
+console.log(artists[2].bio);
 
 
 /* Task 2: There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Use an array method to fix this issue and console.log() to check your work. */
@@ -218,14 +219,14 @@ const artists = [
  *     (1) artists array
  *     (2) a number which is the desired index in the array.
  * getArtistByIndex returns a string in the format `The artist at index {id} is {name}.`
- * 
+ *
  * For example, if getArtistByIndex is invoked with the inventory and the number 0,
  * it will return `The artist at index 0 is Amedeo Modigliani`.
 */
 function getArtistByIndex(id, name) {
     /* code here */
   }
-  
+
   /**
 
 
@@ -233,14 +234,14 @@ function getArtistByIndex(id, name) {
  *     (1) artists array
  *     (2) a number which is the desired index in the array.
  * removeArtist removes an artist from the dat array at the index.
- * 
+ *
  * For example, if removeArtist is invoked with the data and the number 0,
  * it will remove Amedeo Modigliani from our dataset.
 */
 function removeArtist(/*code here*/) {
     /* code here */
   }
-  
+
   /**
 
 
@@ -256,9 +257,9 @@ function lotsOfArt(/* Code here */){
 /* Task 6: Create a function called `addArtist` that can accept an array of information and add it to the artists array. Then, Add a 21st artist to the array (you) with custom information! 👩‍🎨👨‍🎨
 
 id: 21
-name: Your Name Here, 
+name: Your Name Here,
 years: Your Birth Year - current day,
-genre: Web Design, 
+genre: Web Design,
 nationality: Your Nationality Here
 bio: Add 1-2 sentences (or use lorem ipsum) "*/
 
@@ -282,9 +283,9 @@ function get20s(/* Code here */){
 
   }
 
-/* STRETCH 2: Programtically console.log HTML element structure 
+/* STRETCH 2: Programtically console.log HTML element structure
 
-In HTML, every artist and associated content uses the following structure: 
+In HTML, every artist and associated content uses the following structure:
 
 <div id="artist">
 <div class="image">
@@ -296,9 +297,9 @@ In HTML, every artist and associated content uses the following structure:
 <div class = "bio">Vincent Willem van Gogh (Dutch: [ˈvɪnsɛnt ˈʋɪləm vɑŋ ˈɣɔx] (listen); 30 March 1853 – 29 July 1890) was a Dutch Post-Impressionist painter who is among the most famous and influential figures in the history of Western art. In just over a decade he created about 2,100 artworks, including around 860 oil paintings, most of them in the last two years of his life. They include landscapes, still lifes, portraits and self-portraits, and are characterised by bold colours and dramatic, impulsive and expressive brushwork that contributed to the foundations of modern art. However, he was not commercially successful, and his suicide at 37 followed years of mental illness and poverty.</div>
 </div>
 
-Create a function called `getHTML()` that takes the parameter `data` and uses a for..in loop to format and console.log data like the example above. 
+Create a function called `getHTML()` that takes the parameter `data` and uses a for..in loop to format and console.log data like the example above.
 
-The function should console.log 50 chunks of HTML code that match the structure above. 
+The function should console.log 50 chunks of HTML code that match the structure above.
 
 ‼️ You do **NOT** need to get these to display on your page, but you can copy and paste the result into your HTML file if you'd like to see what that would look like. */
 
