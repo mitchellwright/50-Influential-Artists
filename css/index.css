@@ -147,9 +147,6 @@ header nav a:last-child:after {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 75%;
-  margin-right: auto;
-  margin-left: auto;
 }
 .title-container .hero-text {
   text-align: center;
@@ -159,6 +156,9 @@ header nav a:last-child:after {
   background-position: center;
   padding-top: 16rem;
   padding-bottom: 16rem;
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
 }
 .title-container .hero-text h2 {
   font-size: 10rem;
@@ -177,11 +177,7 @@ header nav a:last-child:after {
   box-shadow: 0px 0px 7px 2px #888888;
 }
 .title-container hr {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  margin-left: 0;
-  margin-right: 0;
-  width: 100%;
+  margin: 2rem 0;
 }
 .artists-container {
   display: flex;
@@ -197,6 +193,7 @@ header nav a:last-child:after {
   flex-direction: column;
   margin: 0 6rem;
   min-width: auto;
+  align-items: center;
 }
 @media (max-width: 800px) {
   .artists-container .artist {
@@ -204,8 +201,8 @@ header nav a:last-child:after {
   }
 }
 .artists-container .artist img {
-  height: 25rem;
-  width: auto;
+  height: auto;
+  width: 30rem;
   margin: 0 6rem;
 }
 .artists-container .artist a {
