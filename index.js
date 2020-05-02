@@ -291,11 +291,19 @@ console.log(artists[artists.length - 1]);
 
 /* STRETCH 1: Create a function called get20s() that takes data as an argument and returns an array with names of artists who were born the 20th century (1800-1900) */
 
-function get20s(/* Code here */){
+function get20s(array){
+  let twentiethCenturyNames = [];
+  array.forEach(artist => {
+    let yearBorn = artist.years.slice(0, 4);
+    if(parseInt(yearBorn) <= 1900 && parseInt(yearBorn) >= 1800) {
+      twentiethCenturyNames.push(artist.name);
+    }
+  });
 
-    /* Code here */
+  return twentiethCenturyNames;
+}
 
-  }
+console.log(get20s(artists));
 
 /* STRETCH 2: Programtically console.log HTML element structure
 
